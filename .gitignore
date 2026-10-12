@@ -1,0 +1,37 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+
+# env files (keep .env.example)
+.env
+.env*.local
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# netlify
+.netlify
+
+# editor
+.vscode/
+.idea/
+
+# Protect environment variables and secrets
+.env*
+!.env.example

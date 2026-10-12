@@ -1,0 +1,7 @@
+# Netlify detects Next.js automatically and installs its Next.js runtime
+# (OpenNext adapter), so no `publish` directory or manual plugin is needed.
+[build]
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
